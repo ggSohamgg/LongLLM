@@ -6,7 +6,7 @@ This Lambda function automatically summarizes large transcription `.txt` files u
 
 ## Recommended Model(s) and Justification
 
-**Model:** [`Yarn LLaMA 2 13B 128K GPTQ`](https://huggingface.co/NousResearch/Yarn-Llama-2-13b-128k-GPTQ) (or) [`Nous-Yarn-Mistral-7B-128K`](https://huggingface.co/NousResearch/Yarn-Mistral-7b-64k)
+**Model:** [`Yarn LLaMA 2 13B 128K GPTQ`](https://huggingface.co/NousResearch/Yarn-Llama-2-13b-128k-GPTQ) (or) [`Nous-Yarn-Mistral-7B-128K`](https://huggingface.co/NousResearch/Yarn-Mistral-7b-128k)
 
 ### Why?
 ### ✅ Yarn-LLaMA-2-13B-128K-GPTQ  
@@ -16,7 +16,7 @@ This Lambda function automatically summarizes large transcription `.txt` files u
 - Balanced trade-off between performance and quality.
 
 ### ⚡ Nous-Yarn-Mistral-7B-128K  
-🔗 [View on HuggingFace](https://huggingface.co/NousResearch/Yarn-Mistral-7b-64k)  
+🔗 [View on HuggingFace](https://huggingface.co/NousResearch/Yarn-Mistral-7b-128k)  
 - Optimized for **speed and inference efficiency**.  
 - Ideal for cost-sensitive deployments or faster turnaround.  
 - Slightly lower output quality compared to the 13B variant.
