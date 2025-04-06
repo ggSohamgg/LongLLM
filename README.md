@@ -87,21 +87,6 @@ You can reverse the architecture:
 
 ---
 
-##  Testing Strategy (Before API Key)
-
-You can test core logic **without needing a real API key**:
-
-- **Mock RunPod API calls** using a library like `unittest.mock`.
-- Simulate a dummy S3 event (sample JSON).
-- Run `lambda_handler()` locally and assert:
-  - S3 get call is triggered.
-  - Summary is written correctly to `put_object`.
-
-### 🔄 Or:
-Temporarily replace `initiate_runpod_job()` and `poll_runpod_job()` with mocked functions that return a hardcoded summary.
-
----
-
 ##  Example S3 Key Flow
 
 Input:  
