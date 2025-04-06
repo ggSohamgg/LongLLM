@@ -3,4 +3,5 @@
 A100/H100 GPU: 80GB VRAM
 
 1)Nous-Yarn-Mistral-7B-128K
+
 2)Yarn LLaMA 2 13B 128K GPTQ
